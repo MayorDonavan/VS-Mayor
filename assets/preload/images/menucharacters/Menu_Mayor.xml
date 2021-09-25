@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_Mayor.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Mayor_Menu_Idle0000" x="0" y="0" width="344" height="310" frameX="-4" frameY="-6" frameWidth="348" frameHeight="316"/>
+	<SubTexture name="Mayor_Menu_Idle0001" x="0" y="0" width="344" height="310" frameX="-4" frameY="-6" frameWidth="348" frameHeight="316"/>
+	<SubTexture name="Mayor_Menu_Idle0002" x="344" y="0" width="332" height="314" frameX="-9" frameY="-2" frameWidth="348" frameHeight="316"/>
+	<SubTexture name="Mayor_Menu_Idle0003" x="344" y="0" width="332" height="314" frameX="-9" frameY="-2" frameWidth="348" frameHeight="316"/>
+	<SubTexture name="Mayor_Menu_Idle0004" x="676" y="0" width="306" height="316" frameX="-31" frameY="0" frameWidth="348" frameHeight="316"/>
+	<SubTexture name="Mayor_Menu_Idle0005" x="676" y="0" width="306" height="316" frameX="-31" frameY="0" frameWidth="348" frameHeight="316"/>
+	<SubTexture name="Mayor_Menu_Idle0006" x="0" y="316" width="318" height="316" frameX="-16" frameY="0" frameWidth="348" frameHeight="316"/>
+	<SubTexture name="Mayor_Menu_Idle0007" x="0" y="316" width="318" height="316" frameX="-16" frameY="0" frameWidth="348" frameHeight="316"/>
+	<SubTexture name="Mayor_Menu_Idle0008" x="318" y="316" width="322" height="315" frameX="-10" frameY="-1" frameWidth="348" frameHeight="316"/>
+	<SubTexture name="Mayor_Menu_Idle0009" x="318" y="316" width="322" height="315" frameX="-10" frameY="-1" frameWidth="348" frameHeight="316"/>
+	<SubTexture name="Mayor_Menu_Idle0010" x="640" y="316" width="325" height="315" frameX="-7" frameY="-1" frameWidth="348" frameHeight="316"/>
+	<SubTexture name="Mayor_Menu_Idle0011" x="640" y="316" width="325" height="315" frameX="-7" frameY="-1" frameWidth="348" frameHeight="316"/>
+	<SubTexture name="Mayor_Menu_Idle0012" x="0" y="632" width="331" height="315" frameX="0" frameY="-1" frameWidth="348" frameHeight="316"/>
+	<SubTexture name="Mayor_Menu_Idle0013" x="0" y="632" width="331" height="315" frameX="0" frameY="-1" frameWidth="348" frameHeight="316"/>
+</TextureAtlas>

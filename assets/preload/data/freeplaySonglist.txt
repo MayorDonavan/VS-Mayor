@@ -1,0 +1,3 @@
+Tutorial:gf:0xFF9271FD
+Miau:mayor:0xFF9271FD
+Beans:mayor:0xFF9271FD

@@ -1,0 +1,10 @@
+mayor:left bf:right
+:1:talk:0.05:normal:Beep!
+:0:talk:0.05:normal:Oh hello BF! I didn't think I'd see ya here!
+:0:talk:0.05:normal:Big fan of your stuff!
+:1:talk:0.05:normal:Beep?
+:0:talk:0.05:normal:What am I doing here? Catching feesh!
+:0:talk:0.05:normal:But um, a bit of a purroblem...
+:0:talk:0.05:normal:I don't know how to fish.. could you help me?
+:1:talk:0.05:normal:Beep boop!
+:0:talk:0.05:normal:You will?? Awesome! I'll follow your lead!

@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-6,
+				-17
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Mayor_Idle_Normal"
+		},
+		{
+			"offsets": [
+				-4,
+				-34
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Mayor_Left"
+		},
+		{
+			"offsets": [
+				-60,
+				-64
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Mayor_Right"
+		},
+		{
+			"offsets": [
+				0,
+				-19
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Mayor_Up"
+		},
+		{
+			"offsets": [
+				-24,
+				-122
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Mayor_Down"
+		},
+		{
+			"offsets": [
+				-4,
+				-11
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hungry_idle",
+			"indices": [],
+			"name": "Mayor_Idle_Hungry"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-59,
+				-41
+			],
+			"anim": "gag",
+			"fps": 24,
+			"name": "Mayor_Gag",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mayor",
+	"position": [
+		0,
+		300
+	],
+	"healthicon": "mayor",
+	"flip_x": false,
+	"healthbar_colors": [
+		168,
+		109,
+		236
+	],
+	"camera_position": [
+		0,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

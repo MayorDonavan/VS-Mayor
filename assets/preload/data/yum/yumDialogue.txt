@@ -1,0 +1,6 @@
+mayor:left bf:right
+:0:talk:0.05:normal:Thanks, BF! I caught a lot!
+:1:talk:0.05:normal:Beep boop bep!
+:0:talk:0.05:normal:Yeah! Wanna do a quick song while I nom?
+:1:talk:0.05:normal:Bap...!
+:0:talk:0.05:normal:Don't worry! I'll be totally fine!
