@@ -1,3 +1,8 @@
-Tutorial:gf:0xFF9271FD
-Miau:mayor:0xFF9271FD
-Beans:mayor:0xFF9271FD
+Tutorial:gf:0xFF8A2BE2
+Feesh:mayor:0xFF8A2BE2
+Yum:mayor:0xFF8A2BE2
+Feesh-Overload:mayor:0xFF8A2BE2
+Better:mayor:0xFF8A2BE2
+Miau:mayor:0xFF1B1212
+Found:mayor:0xFF8A2BE2
+Beans:mayor:0xFF8A2BE2

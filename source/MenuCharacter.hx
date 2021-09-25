@@ -60,6 +60,7 @@ class MenuCharacter extends FlxSprite
 			case 'mayor':
 				frames = Paths.getSparrowAtlas('menucharacters/Menu_Mayor');
 				animation.addByPrefix('idle', "Mayor_Menu_Idle", 24);
+				animation.addByPrefix('confirm', "Mayor_Up", 24, false);
 		}
 		animation.play('idle');
 		updateHitbox();
@@ -88,7 +89,7 @@ class MenuCharacter extends FlxSprite
 				offset.set(60, -70);
 
 			case 'mayor':
-				offset.set(100, -10);
+				offset.set(140, -56);
 		}
 	}
 }

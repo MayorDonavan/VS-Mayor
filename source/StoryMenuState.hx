@@ -96,7 +96,7 @@ class StoryMenuState extends MusicBeatState
 
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In The Story Menu", null);
+		DiscordClient.changePresence("In The Story Menu!", null);
 		#end
 
 		for (i in 0...WeekData.songsNames.length)
@@ -277,6 +277,9 @@ class StoryMenuState extends MusicBeatState
 
 				grpWeekText.members[curWeek].startFlashing();
 				grpWeekCharacters.members[1].animation.play('confirm');
+				grpWeekCharacters.members[0].animation.play('confirm');
+
+				
 				stopspamming = true;
 			}
 

@@ -82,15 +82,11 @@ class FreeplayState extends MusicBeatState
 
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In The Freeplay Menu", null);
+		DiscordClient.changePresence("In The Freeplay Menu!", null);
 		#end
 
-		for (i in 1...WeekData.songsNames.length) {
-			#if !debug
-			if (StoryMenuState.weekUnlocked[i])
-			#end
-				addWeek(WeekData.songsNames[i], i, songsHeads[i-1]);
-		}
+		
+		
 
 		// LOAD MUSIC
 

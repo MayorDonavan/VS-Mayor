@@ -63,7 +63,7 @@ class PauseSubState extends MusicBeatSubstate
 		add(levelDifficulty);
 
 		var blueballedTxt:FlxText = new FlxText(20, 15 + 64, 0, "", 32);
-		blueballedTxt.text = "Blueballed: " + PlayState.deathCounter;
+		blueballedTxt.text = "Failed: " + PlayState.deathCounter;
 		blueballedTxt.scrollFactor.set();
 		blueballedTxt.setFormat(Paths.font('vcr.ttf'), 32);
 		blueballedTxt.updateHitbox();
@@ -196,6 +196,8 @@ class PauseSubState extends MusicBeatSubstate
 	function changeSelection(change:Int = 0):Void
 	{
 		curSelected += change;
+
+		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 
 		if (curSelected < 0)
 			curSelected = menuItems.length - 1;

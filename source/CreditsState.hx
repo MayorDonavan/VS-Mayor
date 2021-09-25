@@ -25,26 +25,28 @@ class CreditsState extends MusicBeatState
 
 	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
 		['VS Mayor Crew'],
-		['Mayor',				'mayor',					'Mewsician, Main Programmer',						'https://youtube.com/MayorD',			0xFFa86dec],
+		['Mayor',				'mayor',					'Mewsician, Main Purrogrammer',						'https://youtube.com/MayorD',			0xFFa86dec],
 		['ChromaSen',			'noicon',					'Assistant Programmer',								'https://gamebanana.com/members/1875122',	0xFFa86dec],
-		['Plazer Lazer',		'noicon',					'Main Artist and Animator',							'https://gamebanana.com/members/1794424',	0xFFa86dec],
-		['LiterallyNick',		'noicon',					'Animator',											'https://gamebanana.com/members/1963033',	0xFFFFBF00],
+		['Plazer Lazer',		'noicon',					'Main Animations',							'https://gamebanana.com/members/1794424',	0xFFa86dec],
+		['LiterallyNick',		'noicon',					'Gag Animation',											'https://gamebanana.com/members/1963033',	0xFFFFBF00],
+		['Oreo',				'noicon',					'Background Art, Touchup on Icons',										'',											0xFFA020F0],
 		['RonLol',				'noicon',					'Background Art',									'https://gamebanana.com/members/1868271',	0xFFFFA500],
 		['BlikiEX',				'blick',					'Logo',												'https://gamebanana.com/members/1866060',	0xFFFF0000],
 		['Milk',				'milk',				'Icons',											'https://gamebanana.com/members/1908922',	0xFFADD8E6],
 		['Megaman9009',			'megaman9009',		'Notes',											'https://gamebanana.com/members/1846410',	0xFF00FF00],
 		['Azarel',				'azarel',					'Game Icon',										'',											0xFF0000FF],
-		['Nurf',				'noicon',					'Charting for Better, Feesh Overload, Beans, and Miau',	'https://gamebanana.com/members/1866253',	0xFF00FF00],
+		['AntoineVortex',		'noicon',			'BF Modifications',									'https://gamebanana.com/members/1762735',	0xFFa86dec],
+		['Nurf',				'noicon',					'Charting for Better, Feesh Overload, Beans, Miau, and Found',	'https://gamebanana.com/members/1866253',	0xFF00FF00],
 		['TheRealFerret',		'therealferret',	'Charting for Feesh',								'https://gamebanana.com/members/1726229',	0xFFA020F0],
 		['boink',				'boink',			'Charting for Yum',									'https://gamebanana.com/members/1780459',	0xFFA020F0],
 		['Felix',				'noicon',					'Beta Tester',										'',											0xFF16C76C],
-		['Oreo',				'noicon',					'Beta Tester',										'',											0xFFA020F0],
 		['Sharpie',				'sharpieee',					'Beta Tester',										'',											0xFFA020F0],
+		['Jack',				'mousie',					'Beta Tester',								'https://twitter.com/Skullface_XP',			0xFF20a9d7],
 		['Psych Engine Team'],
 		['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFFFFDD33],
 		['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		0xFFC30085],
 		[''],
-		['Special Thanks'],
+		['Engine Contributor'],
 		['Keoiki',				'keoiki',			'Note Splash Animations',							'https://twitter.com/Keoiki_',			0xFFFFFFFF],
 		[''],
 		["Funkin' Crew"],
@@ -63,7 +65,7 @@ class CreditsState extends MusicBeatState
 	{
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("Lookin' At The Credits", null);
+		DiscordClient.changePresence("Lookin' At The Credits!", null);
 		#end
 
 		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));

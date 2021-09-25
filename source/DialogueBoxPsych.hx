@@ -61,8 +61,9 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				char.frames = Paths.getSparrowAtlas('dialogue/Mayor_Dialogue');
 				char.animation.addByPrefix('talkIdle', 'MayortalkIdle', 24, true); // Dialogue ended
 				char.animation.addByPrefix('talk', 'MayortalkIdle', 24, true); // During dialogue
-				char.y -= -36;
-				char.x -= 200;
+				char.animation.addByPrefix('hungryIdle', 'Mayorhungry', 24, true); // Dialogue ended
+				char.animation.addByPrefix('hungry', 'Mayorhungry', 24, true); // During dialogue
+				char.y -= -40;
 		}
 		char.animation.play('talkIdle', true);
 	}
@@ -163,7 +164,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 			if (bgFade.alpha > 0.5)
 				bgFade.alpha = 0.5;
 
-			if (FlxG.keys.justPressed.ANY)
+			if (PlayerSettings.player1.controls.ACCEPT)
 			{
 				if (!daText.finishedText)
 				{

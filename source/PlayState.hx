@@ -192,7 +192,9 @@ class PlayState extends MusicBeatState
 
 	public var songScore:Int = 0;
 	public var songHits:Int = 0;
+
 	public var songMisses:Int = 0;
+
 	public var scoreTxt:FlxText;
 
 	var timeTxt:FlxText;
@@ -474,27 +476,16 @@ class PlayState extends MusicBeatState
 				var evilSnow:BGSprite = new BGSprite('christmas/evilSnow', -200, 700);
 				add(evilSnow);
 
-			case 'feesh' | 'yum' | 'feesh-overload' | 'better' | 'beans' | 'miau':
+			case 'feesh' | 'yum' | 'feesh-overload' | 'better' | 'beans' | 'miau' | 'found':
 				defaultCamZoom = 0.9;
 				curStage = 'mayor';
+				
+				var bg:BGSprite = new BGSprite('mayor2', -315, -110, 0.2, 0.2);
+				add(bg);
+				
 				var bg:BGSprite = new BGSprite('mayor', -315, -110, 1, 1);
 				add(bg);
 
-				phillyBlack = new BGSprite(null, 0, 0, 0, 0);
-				phillyBlack.makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
-				phillyBlack.alpha = 0.0;
-				add(phillyBlack);
-
-				phillyCityLightsEvent = new FlxTypedGroup<BGSprite>();
-				add(phillyCityLightsEvent);
-				for (i in 0...5)
-				{
-					var light:BGSprite = new BGSprite('mayor' + i, -600, -350, 0.9, 0.9);
-					light.visible = false;
-					light.setGraphicSize(Std.int(light.width * 0.85));
-					light.updateHitbox();
-					phillyCityLightsEvent.add(light);
-				}
 
 			case 'senpai' | 'roses':
 				curStage = 'school';
@@ -2574,7 +2565,7 @@ class PlayState extends MusicBeatState
 				gfSpeed = value;
 
 			case 'Blammed Lights':
-				if (curStage == 'mayor')
+				if (curStage == 'philly')
 				{
 					var lightId:Int = Std.parseInt(value1);
 					if (Math.isNaN(lightId))
@@ -3398,7 +3389,7 @@ class PlayState extends MusicBeatState
 						{
 							if (canMiss)
 							{
-								noteMiss(i);
+								noteMiss(i, true);
 								callOnLuas('noteMissPress', [i]);
 								break;
 							}
@@ -3455,13 +3446,13 @@ class PlayState extends MusicBeatState
 		{
 			if (controlArray[i])
 			{
-				noteMiss(i);
+				noteMiss(i, true);
 				callOnLuas('noteMissPress', [i]);
 			}
 		}
 	}
 
-	function noteMiss(direction:Int = 1):Void
+	function noteMiss(direction:Int = 1, ?ghostMiss:Bool = false):Void
 	{
 		if (!boyfriend.stunned)
 		{
@@ -3474,8 +3465,9 @@ class PlayState extends MusicBeatState
 
 			if (!practiceMode)
 				songScore -= 10;
-			if (!endingSong)
+			if(!endingSong && !ghostMiss) {
 				songMisses++;
+			}
 			RecalculateRating();
 
 			FlxG.sound.play(Paths.soundRandom('missnote', 1, 3), FlxG.random.float(0.1, 0.2));
