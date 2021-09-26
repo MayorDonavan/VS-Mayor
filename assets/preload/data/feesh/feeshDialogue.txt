@@ -7,4 +7,4 @@ mayor:left bf:right
 :0:talk:0.05:normal:But um, a bit of a purroblem...
 :0:talk:0.05:normal:I don't know how to fish.. could you help me?
 :1:talk:0.05:normal:Beep boop!
-:0:talk:0.05:normal:You will?? Awesome! I'll follow your lead!
+:0:talk:0.05:normal:You will?? Pawsome! I'll follow your lead!
