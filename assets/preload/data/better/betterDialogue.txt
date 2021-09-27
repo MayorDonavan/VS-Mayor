@@ -1,5 +1,5 @@
 mayor:left bf:right
-:0:talk:0.05:normal:Phew... I think I'm feeling better meow.
+:0:talk:0.05:normal:Phew... I think I'm feline better meow.
 :1:talk:0.05:normal:Beep bop bap boop!
 :0:talk:0.05:normal:I agree, never doing that again!
 :0:talk:0.05:normal:And hey, now that I'm better...
