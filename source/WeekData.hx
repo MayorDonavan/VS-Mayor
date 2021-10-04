@@ -23,7 +23,7 @@ class WeekData
 	// Just copy week6/week6_high mentions and rename it to whatever your week will be named
 	// It ain't that hard, i guess
 	// Oh yeah, quick reminder that files inside the folder that ends with _high are only loaded
-	// if you have the Low Quality option disabled on "Preferences"
+	// if you have the Low Quality option disabled on "Purrefurences"
 	public static var loadDirectory:Array<String> = [
 		'tutorial', // Tutorial loads "tutorial" folder on assets/
 		'mayor' // meoooooooooow

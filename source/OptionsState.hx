@@ -30,7 +30,7 @@ using StringTools;
 // TO DO: Redo the menu creation system for not being as dumb
 class OptionsState extends MusicBeatState
 {
-	var options:Array<String> = ['Notes', 'Controls', 'Preferences'];
+	var options:Array<String> = ['Notes', 'Controls', 'Purrefurences'];
 	private var grpOptions:FlxTypedGroup<Alphabet>;
 	private static var curSelected:Int = 0;
 	public static var menuBG:FlxSprite;
@@ -101,8 +101,8 @@ class OptionsState extends MusicBeatState
 				case 'Controls':
 					openSubState(new ControlsSubstate());
 
-				case 'Preferences':
-					openSubState(new PreferencesSubstate(showCharacter));
+				case 'Purrefurences':
+					openSubState(new PurrefurencesSubstate(showCharacter));
 			}
 		}
 	}
@@ -664,7 +664,7 @@ class ControlsSubstate extends MusicBeatSubstate {
 
 
 
-class PreferencesSubstate extends MusicBeatSubstate
+class PurrefurencesSubstate extends MusicBeatSubstate
 {
 	private static var curSelected:Int = 0;
 	static var unselectableOptions:Array<String> = [
@@ -951,17 +951,17 @@ class PreferencesSubstate extends MusicBeatSubstate
 			case 'FPS Counter':
 				daText = "If unchecked, hides FPS Counter.";
 			case 'Low Quality':
-				daText = "If checked, disables some background details,\ndecreases loading times and improves performance.";
+				daText = "If checked, disables some background details,\ndecreases loading times and impurroves purrformance.";
 			case 'Persistent Cached Data':
 				daText = "If checked, images loaded will stay in memory\nuntil the game is closed, this increases memory usage,\nbut basically makes reloading times instant.";
 			case 'Anti-Aliasing':
-				daText = "If unchecked, disables anti-aliasing, increases performance\nat the cost of the graphics not looking as smooth.";
+				daText = "If unchecked, disables anti-aliasing, increases purrformance\nat the cost of the graphics not looking as smooth.";
 			case 'Downscroll':
 				daText = "If checked, notes go Down instead of Up, simple enough.";
 			case 'Middlescroll':
 				daText = "If checked, hides Opponent's notes and your notes get centered.";
 			case 'Ghost Tapping':
-				daText = "If checked, you won't get misses from pressing keys\nwhile there are no notes able to be hit.";
+				daText = "If checked, you won't get misses from purressing keys\nwhile there are no notes able to be hit.";
 			case 'Swearing':
 				daText = "If unchecked, your mom won't be angry at you.";
 			case 'Violence':
