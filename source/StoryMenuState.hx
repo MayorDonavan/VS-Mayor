@@ -26,17 +26,19 @@ class StoryMenuState extends MusicBeatState
 	// playing just the modded week then delete it.
 	// defaults to True
 	public static var weekUnlocked:Array<Bool> = [true, // Tutorial
-		true];
+		true,
+		true,
+	];
 
 	// It works like this:
 	// ['Left character', 'Center character', 'Right character']
-	var weekCharacters:Array<Dynamic> = [['dad', 'bf', 'gf'], ['mayor', 'bf', 'gf']];
+	var weekCharacters:Array<Dynamic> = [['dad', 'bf', 'gf'], ['mayor', 'bf', 'gf'], ['mayor', 'bf', 'gf']];
 
 	// The week's name, displayed on top-right
-	var weekNames:Array<String> = ["", "Meow!"];
+	var weekNames:Array<String> = ["", "Meow!","Spooky!"];
 
 	// Background asset name, the background files are stored on assets/preload/menubackgrounds/
-	var weekBackground:Array<String> = ['stage', 'mayor'];
+	var weekBackground:Array<String> = ['stage', 'mayor', 'halloween'];
 
 	var scoreText:FlxText;
 

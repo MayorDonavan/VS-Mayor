@@ -7,7 +7,8 @@ class WeekData
 	// Go to StoryMenuState.hx and add the characters/backgrounds
 	public static var songsNames:Array<Dynamic> = [
 		['Tutorial'], // Tutorial, this one isn't added to Freeplay, instead it is added from assets/preload/freeplaySonglist.txt
-		['Feesh', 'Yum', 'Feesh-Overload', 'Better'] // meowmeowmeowmewmewmew
+		['Feesh', 'Yum', 'Feesh-Overload', 'Better'], // meowmeowmeowmewmewmew
+		['Vibin', 'Frightin', 'Spookin']
 	];
 
 	// Custom week number, used for your week's score not being overwritten by a new vanilla week when the game updates
@@ -15,7 +16,8 @@ class WeekData
 	// null = Don't change week number, it follows the vanilla weeks number order
 	public static var weekNumber:Array<Dynamic> = [
 		null, // Tutorial
-		null // mewmewmewmeowmeowmeow!
+		null, // mewmewmewmeowmeowmeow!
+		null // meow moment
 	];
 
 	// Tells which assets directory should it load
@@ -26,13 +28,14 @@ class WeekData
 	// if you have the Low Quality option disabled on "Purrefurences"
 	public static var loadDirectory:Array<String> = [
 		'tutorial', // Tutorial loads "tutorial" folder on assets/
-		'mayor' // meoooooooooow
+		'mayor', // meoooooooooow
+		'week2' // mrrow
 	];
 
 	// The only use for this is to display a different name for the Week when you're on the score reset menu.
 	// Set it to null to make the Week be automatically called "Week (Number)"
 	// Edit: This now also messes with Discord Rich Presence, so it's kind of relevant.
-	public static var weekResetName:Array<String> = ["Tutorial", "Meow", // Week 1
+	public static var weekResetName:Array<String> = ["Tutorial", "Mayor!", "Spook!" // Week 1
 	];
 
 	//   FUNCTIONS YOU WILL PROBABLY NEVER NEED TO USE

@@ -1,3 +1,5 @@
 bf
 mayor
 mayor-hungry
+spooky
+no

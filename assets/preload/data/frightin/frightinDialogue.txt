@@ -1,0 +1,8 @@
+mayor:left spooky:right
+:0:talk:0.05:normal:That song sounded familiar... I loved it!
+:1:talk:0.05:normal:Thanks! Ready for another?
+:0:talk:0.05:normal:Yeah! Can I go first this time?
+:1:talk:0.05:normal:Purrhaps...
+:0:talk:0.05:normal:Pleeeeease?
+:1:talk:0.05:normal:Mmmm... sure!
+:0:talk:0.05:normal:Yay!

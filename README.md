@@ -35,7 +35,9 @@ This game was made with love to Newgrounds and its community. Extra love to Tom 
 - [Megaman9009](https://gamebanana.com/members/1846410) - Notes
 - Azarel - Game Icon
 - [AntoineVortex](https://gamebanana.com/members/1762735) - BF Modifications
-- [Nurf](https://gamebanana.com/members/1866253) - Charting for Better, Feesh Overload, Beans, Miau, and Found
+- [YushUhBeanz](https://gamebanana.com/members/1687187) - Playable Skid and Pump
+- [theoriginalalex](https://gamebanana.com/members/1816291) - GF Deletion
+- [Nurf](https://gamebanana.com/members/1866253) - Charting for Better, Feesh Overload, Beans, Miau, Found, Frightin, and Spookin
 - [TheRealFerret](https://gamebanana.com/members/1726229) - Charting for Feesh
 - [boink](https://gamebanana.com/members/1780459) - Charting for Yum
 - Felix - Beta Tester

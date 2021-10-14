@@ -3,102 +3,181 @@
 		{
 			"loop": false,
 			"offsets": [
-				59,
-				-20
+				-18,
+				10
 			],
-			"anim": "hey",
+			"anim": "idle",
 			"fps": 24,
-			"name": "spooky kids YEAH!!",
+			"name": "BF idle dance",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				130,
-				-10
+				12,
+				-6
 			],
 			"anim": "singLEFT",
 			"fps": 24,
-			"name": "note sing left",
+			"name": "BF NOTE LEFT0",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-130,
-				-14
-			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "spooky sing right",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-50,
-				-130
+				-10,
+				-50
 			],
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "spooky DOWN note",
+			"name": "BF NOTE DOWN0",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				0
+				-58,
+				27
 			],
-			"fps": 12,
-			"anim": "danceLeft",
-			"indices": [
-				0,
-				2,
-				6
-			],
-			"name": "spooky dance idle"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"fps": 12,
-			"anim": "danceRight",
-			"indices": [
-				8,
-				10,
-				12,
-				14
-			],
-			"name": "spooky dance idle"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-20,
-				26
-			],
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "spooky UP NOTE"
+			"fps": 24,
+			"name": "BF NOTE UP0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-38,
+				-7
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "BF NOTE RIGHT0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				32,
+				51
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "BF NOTE LEFT MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				3
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "BF NOTE DOWN MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-29,
+				27
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "BF NOTE UP MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				33
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "BF NOTE RIGHT MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				66,
+				10
+			],
+			"anim": "hey",
+			"fps": 24,
+			"name": "BF HEY",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-74,
+				31
+			],
+			"anim": "hurt",
+			"fps": 24,
+			"name": "BF hit",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-75,
+				31
+			],
+			"anim": "scared",
+			"fps": 24,
+			"name": "BF idle shaking",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				37,
+				11
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "BF dies",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				37,
+				5
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "BF Dead Loop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				55,
+				43
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "BF Dead confirm",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/spooky_kids_assets",
+	"image": "characters/spooky",
 	"position": [
 		0,
-		200
+		350
 	],
 	"healthicon": "spooky",
-	"flip_x": false,
+	"flip_x": true,
 	"healthbar_colors": [
-		213,
-		126,
-		0
+		49,
+		176,
+		209
 	],
 	"camera_position": [
 		0,

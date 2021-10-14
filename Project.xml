@@ -56,6 +56,7 @@
 		<library name="shared"        preload="true" />
 		<library name="tutorial"      preload="true" />
 		<library name="week1"         preload="true" />
+		<library name="week2"         preload="true" />
 		<library name="mayor"         preload="true" />
 	</section>
 	
@@ -64,6 +65,7 @@
 		<library name="shared"        preload="false" />
 		<library name="tutorial"      preload="false" />
 		<library name="week1"         preload="false" />
+		<library name="week2"         preload="false" />
 		<library name="mayor"         preload="false" />
 	</section>
 	
@@ -75,6 +77,8 @@
 	<assets path="assets/tutorial"      library="tutorial"      exclude="*.mp3" unless="web"/>
 	<assets path="assets/week1"         library="week1"         exclude="*.ogg" if="web"/>
 	<assets path="assets/week1"         library="week1"         exclude="*.mp3" unless="web"/>
+	<assets path="assets/week2"         library="week1"         exclude="*.ogg" if="web"/>
+	<assets path="assets/week2"         library="week1"         exclude="*.mp3" unless="web"/>
 	<assets path="assets/mayor"         library="mayor"         exclude="*.ogg" if="web"/>
 	<assets path="assets/mayor"         library="mayor"         exclude="*.mp3" unless="web"/>
 	

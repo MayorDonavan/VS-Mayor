@@ -24,7 +24,7 @@ class FreeplayState extends MusicBeatState
 	//Character head icons for your songs
 	static var songsHeads:Array<Dynamic> = [
 		['mayor'],							//Week 1
-		['spooky', 'spooky', 'monster'],	//Week 2
+		['mayor', 'mayor', 'mayor'],	//Week 2
 		['pico'],							//Week 3
 		['mom'],							//Week 4
 		['parents', 'parents', 'monster'],	//Week 5

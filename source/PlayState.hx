@@ -292,7 +292,7 @@ class PlayState extends MusicBeatState
 
 		switch (SONG.song.toLowerCase())
 		{
-			case 'spookeez' | 'south' | 'monster':
+			case 'vibin' | 'frightin' | 'spookin':
 				curStage = 'spooky';
 
 				if (!ClientPrefs.lowQuality)
@@ -983,6 +983,12 @@ class PlayState extends MusicBeatState
 					dialogueIntro(dialogue, 'bleh');
 				case 'better':
 					dialogueIntro(dialogue, 'lunchbox');
+				case 'vibin':
+					dialogueIntro(dialogue, 'spookycutscene');
+				case 'frightin':
+					dialogueIntro(dialogue, 'spookycutscene');
+				case 'spookin':
+					dialogueIntro(dialogue, 'spookycutscene');
 
 				default:
 					startCountdown();
@@ -3120,17 +3126,17 @@ class PlayState extends MusicBeatState
 
 		var daRating:String = "sick";
 
-		if (noteDiff > Conductor.safeZoneOffset * 0.9)
+		if (noteDiff > Conductor.safeZoneOffset * 0.85)
 		{
 			daRating = 'shit';
 			score = 50;
 		}
-		else if (noteDiff > Conductor.safeZoneOffset * 0.75)
+		else if (noteDiff > Conductor.safeZoneOffset * 0.6)
 		{
 			daRating = 'bad';
 			score = 100;
 		}
-		else if (noteDiff > Conductor.safeZoneOffset * 0.25)
+		else if (noteDiff > Conductor.safeZoneOffset * 0.2)
 		{
 			daRating = 'good';
 			score = 200;

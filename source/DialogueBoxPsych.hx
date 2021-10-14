@@ -64,6 +64,11 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				char.animation.addByPrefix('hungryIdle', 'Mayorhungry', 24, true); // Dialogue ended
 				char.animation.addByPrefix('hungry', 'Mayorhungry', 24, true); // During dialogue
 				char.y -= -40;
+
+			case 'spooky':
+				char.frames = Paths.getSparrowAtlas('dialogue/Spooky_Dialogue');
+				char.animation.addByPrefix('talkIdle', 'SpookytalkIdle', 24, true); // Dialogue ended
+				char.animation.addByPrefix('talk', 'SpookytalkIdle', 24, true); // During dialogue
 		}
 		char.animation.play('talkIdle', true);
 	}

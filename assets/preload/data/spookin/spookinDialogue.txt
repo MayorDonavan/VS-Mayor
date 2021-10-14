@@ -1,0 +1,9 @@
+mayor:left spooky:right
+:1:talk:0.05:normal:Wait... are you a cat?
+:0:talk:0.05:normal:I'm a cat!
+:1:talk:0.05:angry:WE LOVE CATS!
+:0:talk:0.05:angry:I LOVE CATS TOO!
+:1:talk:0.05:angry:YAY! LET'S PURRRARTY!
+:0:talk:0.05:normal:And spooky?
+:1:talk:0.05:normal:And spooky!
+:0:talk:0.05:angry:YAY!

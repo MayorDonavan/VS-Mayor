@@ -1,8 +1,11 @@
-Tutorial:gf:0xFF8A2BE2
-Feesh:mayor:0xFF8A2BE2
-Yum:mayor:0xFF8A2BE2
-Feesh-Overload:mayor:0xFF8A2BE2
-Better:mayor:0xFF8A2BE2
+Tutorial:gf:0xFFA86DEC
+Feesh:mayor:0xFFA86DEC
+Yum:mayor:0xFFA86DEC
+Feesh-Overload:mayor:0xFFA86DEC
+Better:mayor:0xFFA86DEC
+Vibin:mayor:0xFFFB6F12
+Frightin:mayor:0xFFFB6F12
+Spookin:mayor:0xFFFB6F12
 Miau:mayor:0xFF1B1212
 Found:mayor:0xFF8A2BE2
 Beans:mayor:0xFF8A2BE2

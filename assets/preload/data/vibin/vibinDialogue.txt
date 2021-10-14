@@ -1,0 +1,7 @@
+mayor:left spooky:right
+:0:talk:0.05:angry:IT'S SPOOKY TIME!
+:1:talk:0.05:angry:IT'S SPOOKY TIME!!!
+:0:talk:0.05:angry:READY FOR SPOOKY?
+:1:talk:0.05:angry:READY FOR SPOOKY!!!
+:0:talk:0.05:angry:YEAH!
+:1:talk:0.05:normal:But first... let's vibe.
