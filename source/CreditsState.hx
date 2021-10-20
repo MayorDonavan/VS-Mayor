@@ -37,6 +37,7 @@ class CreditsState extends MusicBeatState
 		['Azarel',				'azarel',					'Game Icon',										'',											0xFF0000FF],
 		['AntoineVortex',		'noicon',			'BF Modifications',									'https://gamebanana.com/members/1762735',	0xFFa86dec],
 		['YushUhBeanz',			'noicon',			'Playable Skid and Pump',							'https://gamebanana.com/members/1687187',	0xFFa86dec],
+		['LeafyTheFoliage',			'noicon',			'Playable Skid and Pump',							'https://gamebanana.com/members/1767335',	0xFFa86dec],
 		['theoriginalalex',		'noicon',			'GF Deletion',										'https://gamebanana.com/members/1816291',	0xFFa86dec],
 		['Nurf',				'noicon',					'Charting for Better, Feesh Overload, Beans, Miau, Found, Frightin, and Spookin',	'https://gamebanana.com/members/1866253',	0xFF00FF00],
 		['TheRealFerret',		'therealferret',	'Charting for Feesh',								'https://gamebanana.com/members/1726229',	0xFFA020F0],
